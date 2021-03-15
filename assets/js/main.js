@@ -5,12 +5,12 @@ $(document).ready(function(){
   finestra.text(serie);
 
   // Da li parte un timer di 30 secondi. Poi nascondo i numeri
-  setTimeout(chiudi, 2000);
+  setTimeout(chiudi, 5000);
 
   // l'utente deve inserire, uno alla volta, i numeri che ha visto
   // precedentemente, tramite il prompt().
 
-  setTimeout(bottoneShow, 2000);
+  setTimeout(bottoneShow, 5000);
 
 
   var bottone = $('button');
